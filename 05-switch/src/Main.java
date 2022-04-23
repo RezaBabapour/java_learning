@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int day = 3;
+        int day = 10;
+
+
         switch (day)
         {
             case 1:
@@ -26,6 +28,15 @@ public class Main {
                 break;
             default:
                 System.out.println("Wrong day");
+        }
+        System.out.println("bad is switch");
+
+        char t= 'a';
+        switch (t) {
+            case 'A':
+            case 'a':
+                System.out.println("a");
+
         }
     }
 }

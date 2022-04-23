@@ -3,6 +3,7 @@ public class Main {
         int i = 0;
         System.out.println("while loop test");
         while (i <= 10) {
+
             System.out.println("i =" + i);
             i++;
         }
@@ -15,8 +16,11 @@ public class Main {
         } while (i > 10);
 
         System.out.println("For loop test: ");
-        for (i = 0; i < 10; i++)
-            System.out.println("i = " + i);
+
+        int sum =0;
+        for (i = 20; i <= 30; i++)
+            sum+=i;
+        System.out.println("sum = "+sum);
 
         System.out.println("Test for break");
         for (i = 0; ; i++) {
